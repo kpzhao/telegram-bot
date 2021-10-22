@@ -9,4 +9,4 @@ def sendTg():
         print('Tg通知推送异常，原因为: ' + str(e))
         print(traceback.format_exc())
 if __name__ == "__main__":
-   sendTg
+   sendTg()
