@@ -1,9 +1,6 @@
 name: sendtg
 
 on:
-  schedule:
-    - cron: "30 22,4 * * *"
- 
   workflow_dispatch:
 
 jobs:
