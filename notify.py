@@ -8,3 +8,4 @@ def sendTg():
     except Exception as e:
         print('Tg通知推送异常，原因为: ' + str(e))
         print(traceback.format_exc())
+sendTg
