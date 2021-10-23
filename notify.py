@@ -10,4 +10,4 @@ def sendTg():
         print(traceback.format_exc())
 if __name__ == "__main__":
    send_result = sendTg()
-print （send_result）
+print(send_result)
